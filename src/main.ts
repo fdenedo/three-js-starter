@@ -14,7 +14,7 @@ if (canvas) {
     experience.resources.on('ready', () => {
         const floor = new Floor();
         const fox = new Fox();
-        const environment = new Environment();
+        new Environment(); // TODO: This needs to be sorted out - add to World properly
 
         world.add(floor);
         world.add(fox);

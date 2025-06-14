@@ -11,7 +11,7 @@ export default class Fox extends BaseEntity {
     resource: GLTF;
     object: THREE.Object3D;
     time: Time;
-    animations;
+    animations: any;
     debug;
 
     constructor() {
